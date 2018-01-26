@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive flex</title>
+    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<p>Flex 1</p>
+<nav class="container" >
+    <div style="flex: 1;">Home</div>
+    <div style="flex: 1;">Search</div>
+    <div style="flex: 1;">Logout</div>
+</nav>
+<p>Search has flex 2</p>
+<nav class="container" >
+    <div>Home</div>
+    <div style="flex: 2">Search</div>
+    <div>Logout</div>
+</nav>
+<p>All but search flex 2</p>
+<nav class="container">
+    <div style="flex: 2">Home</div>
+    <div>Search</div>
+    <div style="flex: 2">Logout</div>
+</nav>
+</body>
+</html>

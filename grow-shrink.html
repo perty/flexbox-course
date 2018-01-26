@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox course</title>
+    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<h1>Grow, shrink and basis</h1>
+<p>Basis 200 px</p>
+<nav class="container" style="">
+    <div style="flex-basis: 200px">Home</div>
+    <div style="flex-basis: 200px">Logout</div>
+</nav>
+<p>Flex grow 5 and 1, basis 300</p>
+<nav class="container" style="">
+    <div style="flex-grow: 5; flex-basis: 300px">Home</div>
+    <div style="flex-grow: 1; flex-basis: 300px">Logout</div>
+</nav>
+<p>Flex shrink 5 and 1, basis 500</p>
+<nav class="container" style="">
+    <div style="flex-shrink: 5; flex-basis: 500px">Home</div>
+    <div style="flex-shrink: 1; flex-basis: 500px">Logout</div>
+</nav>
+</body>
+</html>
