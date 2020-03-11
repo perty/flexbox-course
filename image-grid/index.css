@@ -10,7 +10,9 @@
 }
 
 .container > .normal {
-    flex: 1 1 150px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 150px;
 }
 
 .container > .big {
